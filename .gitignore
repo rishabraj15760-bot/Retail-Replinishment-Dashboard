@@ -1,0 +1,23 @@
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.streamlit/secrets.toml
+
+# IDE files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large datasets
+data/sales_train_validation.csv
+data/sell_prices.csv
